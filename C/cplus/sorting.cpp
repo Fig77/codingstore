@@ -6,8 +6,7 @@ using namespace std;
 
 void printArray(int arg[], unsigned int l) {
   for(unsigned int i = 0; i < l - 1; i++){
-    cout << arg[i] << " ";
-    cout << endl;
+    cout << arg[i] << " " << endl;
   }
 }
 
