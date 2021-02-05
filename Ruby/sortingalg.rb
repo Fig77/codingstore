@@ -1,6 +1,8 @@
 
 # Bubble sort
 
+# def bubble_sort(array: []): Nil ->
+
 def bubble_sort(array = [])
   sorted = false
   while !sorted
@@ -13,5 +15,15 @@ def bubble_sort(array = [])
     end
   end
 end
+
+# def counting_sort(array: []): Nil -> 
+
+def counting_sort(array = [])
+  counter_array = Array.new(array.length, 0)
+  array.each { |x| counter_array[x] += 1 }
+  counter_array.each { |x,i| array[i] = x }
+end
+
+
 
 
