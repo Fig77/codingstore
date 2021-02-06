@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/* This problems were featured in C++ basics by jigsaw. It was meant for begginers, and of course some important things were left out, for time constraints and
+/* These problems were featured in C++ basics by jigsaw. It was meant for begginers, and of course some important things were left out, for time constraints and
 because featured 100 problems for people with no coding idea, to get them to a nice level were they can start exploring */
 
 int avrg_of_thr(int x, int y, int z) { return ((x+y+z)/3); }
@@ -35,4 +35,6 @@ int fibo(double x){
   if(x < 2) {return 1;}
   return (fibo(x - 1) + fibo(x - 2));
 }
+
+
 

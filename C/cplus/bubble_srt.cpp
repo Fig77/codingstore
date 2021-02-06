@@ -26,3 +26,10 @@ void bubbleSort(int arg[], unsigned int l) {
   }
   printArray(arg, l);
 }
+
+
+int main(){
+  int ar[] = {3,2,1};
+  int l = sizeof(ar)/sizeof(ar[0]);
+  bubbleSort(ar, l);
+}
