@@ -24,6 +24,8 @@ def counting_sort(array = [])
   counter_array.each { |x,i| array[i] = x }
 end
 
+# def qck_sort(array: [], min: Integer, max: Integer): Array ->
+
 def qck_sort(array = [], min = 0, max = nil)
   return [] if array.empty?
   max = array.length - 1 if max === nil
