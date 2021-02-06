@@ -11,3 +11,17 @@ bool is_ev(int x) {
   return false;
 }
 
+int larg_of_three(int x, int y, int z) {
+  if(x < y){
+   if(y < z){
+     return z;
+   } else {
+     return y;
+    }
+  } else {
+   if(z < x) {
+     return x;
+   }
+  }
+  return z;
+}
