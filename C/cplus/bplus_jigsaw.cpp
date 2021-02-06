@@ -25,3 +25,11 @@ int larg_of_three(int x, int y, int z) {
   }
   return z;
 }
+
+/* Fibo for around..first 10 numbers? did not do the math */
+
+int fibo(double x){
+  if(x < 2) {return 1;}
+  return (fibo(x - 1) + fibo(x - 2));
+
+}
