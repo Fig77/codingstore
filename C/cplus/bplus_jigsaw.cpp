@@ -1,6 +1,9 @@
-/*This set of basic problems were featured on jigsaw webconference, is a good set of problem for anywone introducing to programming. Yes, you don't need a dynamic typed
-coding language to learn, and then wonder what tf is an unsigned integer or why some problems have data constraints that you never care.*/
+#include<iostream>
 
+using namespace std;
+
+/* This problems were featured in C++ basics by jigsaw. It was meant for begginers, and of course some important things were left out, for time constraints and
+because featured 100 problems for people with no coding idea, to get them to a nice level were they can start exploring */
 
 int avrg_of_thr(int x, int y, int z) { return ((x+y+z)/3); }
 
@@ -31,5 +34,5 @@ int larg_of_three(int x, int y, int z) {
 int fibo(double x){
   if(x < 2) {return 1;}
   return (fibo(x - 1) + fibo(x - 2));
-
 }
+
