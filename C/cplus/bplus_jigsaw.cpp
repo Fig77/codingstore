@@ -2,9 +2,12 @@
 coding language to learn, and then wonder what tf is an unsigned integer or why some problems have data constraints that you never care.*/
 
 
-/* avg of three */
+int avrg_of_thr(int x, int y, int z) { return ((x+y+z)/3); }
 
-int avrg_of_thr(int x, int y, int z) { return ((x+y+z)/3); } /* flow chart */
-
-
+bool is_ev(int x) {
+  if(x%2 == 0) {
+    return true;
+  }
+  return false;
+}
 
