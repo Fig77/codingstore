@@ -2,8 +2,8 @@
 
 using namespace std;
 
-/* These problems were featured in C++ basics by jigsaw. It was meant for begginers, and of course some important things were left out, for time constraints and
-because featured 100 problems for people with no coding idea, to get them to a nice level were they can start exploring */
+/* Some of these problems were featured in C++ basics by jigsaw. It was meant for begginers, and of course some important things were left out, for time constraints and
+because featured 100 problems for people with no coding idea, to get them to a nice level were they can start exploring. I was meant to follow them but clearly I got bored rathed quickly.*/
 
 int avrg_of_thr(int x, int y, int z) { return ((x+y+z)/3); }
 
